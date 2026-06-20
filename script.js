@@ -1,5 +1,5 @@
 // Configuration
-const API_BASE = "https://libsys-9d2x.onrender.com";
+const API_BASE = "https://libsys-9d2x.onrender.com/api";
 
 // State
 let state = {

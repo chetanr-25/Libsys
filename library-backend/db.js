@@ -14,6 +14,8 @@ const pool = mysql.createPool({
   }
 });
 
+module.exports = pool;
+
 (async () => {
     try {
         const conn = await pool.getConnection();

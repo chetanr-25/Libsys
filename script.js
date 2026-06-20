@@ -1,5 +1,5 @@
 // Configuration
-const API_BASE = 'http://localhost:3000/api';
+const API_BASE = "https://libsys-9d2x.onrender.com";
 
 // State
 let state = {
@@ -123,7 +123,7 @@ async function fetchAPI(endpoint) {
         console.error(`Error fetching ${endpoint}:`, error);
         throw error;
     }
-}
+} 
 
 // Render Dashboard
 async function initDashboard() {
